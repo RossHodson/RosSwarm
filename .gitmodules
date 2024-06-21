@@ -1,0 +1,3 @@
+[submodule "crazyflie_ros2_experimental"]
+	path = crazyflie_ros2_experimental
+	url = git@github.com:knmcguire/crazyflie_ros2_experimental.git
