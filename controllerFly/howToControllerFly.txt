@@ -1,0 +1,17 @@
+Steps to fly with xbox controller:
+
+Open 1 terminal
+plug in controller
+sudo xboxdrv
+
+
+Open another terminal
+navigate to crazyflie-clients-python
+python3 bin/cfclient
+
+
+Plug in crazyradio
+
+Scan for crazyflies
+
+**** Hold right trigger down ****  (for some reason the default is max throttle)

@@ -1,0 +1,100 @@
+[  5%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o[0m
+[  5%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o[0m
+[ 10%] Built target teleop
+[ 12%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyradioThread.cpp.o[0m
+[ 15%] [32m[1mLinking CXX static library libcrazyflieLinkCpp.a[0m
+[ 27%] Built target crazyflieLinkCpp
+[ 32%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o[0m
+[ 32%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o[0m
+[ 35%] [32m[1mLinking CXX static library libcrazyflie_cpp.a[0m
+[ 35%] Built target crazyflie_cpp
+[ 37%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o[0m
+[ 40%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.o[0m
+[ 45%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.o[0m
+[ 42%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o[0m
+[ 50%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.o[0m
+[ 55%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.o[0m
+[ 55%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[ 57%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/comCheck.dir/src/comCheck.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m
+[ 60%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.o[0m
+[ 62%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o[0m
+[ 65%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/downloadUSDLogfile.dir/src/downloadUSDLogfile.cpp.o[0m
+[ 67%] [32m[1mLinking CXX executable downloadUSDLogfile[0m
+[ 70%] [32m[1mLinking CXX executable scan[0m
+[ 70%] Built target downloadUSDLogfile
+[ 70%] Built target scan
+[ 72%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/setParam.dir/src/setParam.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable console[0m
+[ 77%] [32m[1mLinking CXX executable listLogVariables[0m
+[ 80%] [32m[1mLinking CXX executable version[0m
+[ 82%] [32m[1mLinking CXX executable listMemories[0m
+[ 85%] [32m[1mLinking CXX executable listParams[0m
+[ 85%] Built target listLogVariables
+[ 85%] Built target console
+[ 85%] Built target version
+[ 85%] Built target listMemories
+[ 85%] Built target listParams
+[ 87%] [32m[1mLinking CXX executable battery[0m
+[ 87%] Built target battery
+[ 90%] [32m[1mLinking CXX executable comCheck[0m
+[ 92%] [32m[1mLinking CXX executable reboot[0m
+[ 92%] Built target comCheck
+[ 92%] Built target reboot
+[ 95%] [32m[1mLinking CXX executable log[0m
+[ 95%] Built target log
+[ 97%] [32m[1mLinking CXX executable setParam[0m
+[ 97%] Built target setParam
+[100%] [32m[1mLinking CXX executable crazyflie_server[0m
+[100%] Built target crazyflie_server
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/comCheck
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/scan
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/listParams
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/listLogVariables
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/listMemories
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/reboot
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/battery
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/version
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/console
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/log
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/setParam
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/downloadUSDLogfile
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/teleop
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server.py
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/chooser.py
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/vel_mux.py
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/cfmult.py
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/simple_mapper_multiranger.py
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/aideck_streamer.py
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/gui.py
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/lib/crazyflie/flash.py
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie//launch/launch.py
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie//config/aideck_streamer.yaml
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie//config/config.rviz
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie//config/server.yaml
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie//config/teleop.yaml
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie//urdf/cf2_assembly.stl
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie//urdf/cf2_assembly_with_props.dae
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie//urdf/crazyflie_description.urdf
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie/environment/path.sh
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie/environment/path.dsv
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.bash
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.sh
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.zsh
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.dsv
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie/package.dsv
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+-- Symlinking: /home/ross/RosSwarm/ros2_ws/install/crazyflie/share/crazyflie/package.xml

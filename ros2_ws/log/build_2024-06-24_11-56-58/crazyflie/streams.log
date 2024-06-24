@@ -1,0 +1,22 @@
+[0.213s] Invoking command in '/home/ross/RosSwarm/ros2_ws/build/crazyflie': AMENT_PREFIX_PATH=/home/ross/RosSwarm/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ross/RosSwarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ross/RosSwarm/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ross/RosSwarm/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ross/RosSwarm/ros2_ws/build/crazyflie -- -j12 -l12
+[0.259s] [  5%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o[0m
+[0.259s] [  5%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o[0m
+[0.260s] [ 10%] Built target teleop
+[0.261s] [ 12%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSBThread.cpp.o[0m
+[0.526s] In file included from [01m[K/home/ross/RosSwarm/ros2_ws/src/crazyswarm2/crazyflie/deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/src/USBManager.h:9[m[K,
+[0.527s]                  from [01m[K/home/ross/RosSwarm/ros2_ws/src/crazyswarm2/crazyflie/deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/src/USBManager.cpp:1[m[K:
+[0.527s] [01m[K/home/ross/RosSwarm/ros2_ws/src/crazyswarm2/crazyflie/deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/src/CrazyradioThread.h:54:17:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[Kruntime_error_[m[K’ has incomplete type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[0.527s]    54 |     std::string [01;31m[Kruntime_error_[m[K;
+[0.527s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.527s] In file included from [01m[K/usr/include/c++/13/iosfwd:41[m[K,
+[0.527s]                  from [01m[K/usr/include/c++/13/bits/std_thread.h:38[m[K,
+[0.527s]                  from [01m[K/usr/include/c++/13/thread:45[m[K,
+[0.527s]                  from [01m[K/home/ross/RosSwarm/ros2_ws/src/crazyswarm2/crazyflie/deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/src/CrazyradioThread.h:4[m[K:
+[0.527s] [01m[K/usr/include/c++/13/bits/stringfwd.h:72:11:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_string<char>[m[K’}
+[0.528s]    72 |     class [01;36m[Kbasic_string[m[K;
+[0.528s]       |           [01;36m[K^~~~~~~~~~~~[m[K
+[0.971s] gmake[2]: *** [deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/build.make:76: deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o] Error 1
+[0.971s] gmake[2]: *** Waiting for unfinished jobs....
+[5.054s] gmake[1]: *** [CMakeFiles/Makefile2:613: deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/all] Error 2
+[5.055s] gmake: *** [Makefile:146: all] Error 2
+[5.056s] Invoked command in '/home/ross/RosSwarm/ros2_ws/build/crazyflie' returned '2': AMENT_PREFIX_PATH=/home/ross/RosSwarm/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ross/RosSwarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ross/RosSwarm/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ross/RosSwarm/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ross/RosSwarm/ros2_ws/build/crazyflie -- -j12 -l12
