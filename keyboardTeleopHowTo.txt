@@ -1,0 +1,15 @@
+How to teleop with the keyboard
+
+In 2 terminals
+source
+ros2_ws/install/local_setup.bash
+
+
+plug in crazyradio and turn on crazyflie(put on level ground)
+
+in one terminal open the server
+ros2 launch crazyflie_examples keyboard_velmux_launch.py
+
+in the other open the keyboard input
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
