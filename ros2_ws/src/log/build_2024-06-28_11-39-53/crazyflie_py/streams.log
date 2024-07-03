@@ -1,0 +1,56 @@
+[0.859s] Invoking command in '/home/ross/RosSwarm/ros2_ws/src/crazyswarm2/crazyflie_py': AMENT_PREFIX_PATH=/home/ross/RosSwarm/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ross/RosSwarm/ros2_ws/src/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ross/RosSwarm/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/prefix_override:/home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages:/home/ross/RosSwarm/ros2_ws/src/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/crazyflie_py build --build-base /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build install --record /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/install.log --single-version-externally-managed install_data
+[1.157s] running egg_info
+[1.157s] creating ../../build/crazyflie_py/crazyflie_py.egg-info
+[1.180s] writing ../../build/crazyflie_py/crazyflie_py.egg-info/PKG-INFO
+[1.181s] writing dependency_links to ../../build/crazyflie_py/crazyflie_py.egg-info/dependency_links.txt
+[1.181s] writing requirements to ../../build/crazyflie_py/crazyflie_py.egg-info/requires.txt
+[1.181s] writing top-level names to ../../build/crazyflie_py/crazyflie_py.egg-info/top_level.txt
+[1.181s] writing manifest file '../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+[1.230s] reading manifest file '../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+[1.231s] writing manifest file '../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+[1.231s] running build
+[1.231s] running build_py
+[1.231s] creating /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build
+[1.231s] creating /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib
+[1.231s] creating /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py
+[1.231s] copying crazyflie_py/crazyswarm_py.py -> /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py
+[1.231s] copying crazyflie_py/keyboard.py -> /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py
+[1.231s] copying crazyflie_py/linuxjsdev.py -> /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py
+[1.231s] copying crazyflie_py/genericJoystick.py -> /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py
+[1.232s] copying crazyflie_py/uav_trajectory.py -> /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py
+[1.232s] copying crazyflie_py/util.py -> /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py
+[1.232s] copying crazyflie_py/__init__.py -> /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py
+[1.232s] copying crazyflie_py/crazyflie.py -> /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py
+[1.232s] copying crazyflie_py/joystick.py -> /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py
+[1.232s] running install
+[1.238s] running install_lib
+[1.264s] creating /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py
+[1.265s] copying /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py/crazyswarm_py.py -> /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py
+[1.265s] copying /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py/keyboard.py -> /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py
+[1.265s] copying /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py/linuxjsdev.py -> /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py
+[1.265s] copying /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py/genericJoystick.py -> /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py
+[1.265s] copying /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py/uav_trajectory.py -> /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py
+[1.265s] copying /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py/util.py -> /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py
+[1.265s] copying /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py/__init__.py -> /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py
+[1.265s] copying /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py/crazyflie.py -> /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py
+[1.265s] copying /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build/lib/crazyflie_py/joystick.py -> /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py
+[1.266s] byte-compiling /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py/crazyswarm_py.py to crazyswarm_py.cpython-312.pyc
+[1.266s] byte-compiling /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py/keyboard.py to keyboard.cpython-312.pyc
+[1.266s] byte-compiling /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py/linuxjsdev.py to linuxjsdev.cpython-312.pyc
+[1.268s] byte-compiling /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py/genericJoystick.py to genericJoystick.cpython-312.pyc
+[1.269s] byte-compiling /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py/uav_trajectory.py to uav_trajectory.cpython-312.pyc
+[1.270s] byte-compiling /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py/util.py to util.cpython-312.pyc
+[1.270s] byte-compiling /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py/__init__.py to __init__.cpython-312.pyc
+[1.270s] byte-compiling /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py/crazyflie.py to crazyflie.cpython-312.pyc
+[1.274s] byte-compiling /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py/joystick.py to joystick.cpython-312.pyc
+[1.275s] running install_data
+[1.275s] creating /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/share/ament_index
+[1.275s] creating /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/share/ament_index/resource_index
+[1.275s] creating /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/share/ament_index/resource_index/packages
+[1.275s] copying resource/crazyflie_py -> /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/share/ament_index/resource_index/packages
+[1.275s] copying package.xml -> /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/share/crazyflie_py
+[1.275s] running install_egg_info
+[1.299s] Copying ../../build/crazyflie_py/crazyflie_py.egg-info to /home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages/crazyflie_py-2.0.0-py3.12.egg-info
+[1.300s] running install_scripts
+[1.443s] writing list of installed files to '/home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/install.log'
+[1.467s] Invoked command in '/home/ross/RosSwarm/ros2_ws/src/crazyswarm2/crazyflie_py' returned '0': AMENT_PREFIX_PATH=/home/ross/RosSwarm/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ross/RosSwarm/ros2_ws/src/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ross/RosSwarm/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/prefix_override:/home/ross/RosSwarm/ros2_ws/src/install/crazyflie_py/lib/python3.12/site-packages:/home/ross/RosSwarm/ros2_ws/src/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/crazyflie_py build --build-base /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/build install --record /home/ross/RosSwarm/ros2_ws/src/build/crazyflie_py/install.log --single-version-externally-managed install_data
