@@ -15,6 +15,7 @@
 /home/ross/RosSwarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//nice_hover
 /home/ross/RosSwarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//set_param
 /home/ross/RosSwarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//swap
+/home/ross/RosSwarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//xboxFly
 /home/ross/RosSwarm/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/__init__.py
 /home/ross/RosSwarm/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/arming.py
 /home/ross/RosSwarm/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/cmd_full_state.py
@@ -29,6 +30,7 @@
 /home/ross/RosSwarm/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/nice_hover.py
 /home/ross/RosSwarm/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/set_param.py
 /home/ross/RosSwarm/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/swap.py
+/home/ross/RosSwarm/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/xboxFly.py
 /home/ross/RosSwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_params.yaml
 /home/ross/RosSwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_view.rviz
 /home/ross/RosSwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.data

@@ -9,3 +9,4 @@ multi_trajectory = crazyflie_examples.multi_trajectory:main
 nice_hover = crazyflie_examples.nice_hover:main
 set_param = crazyflie_examples.set_param:main
 swap = crazyflie_examples.swap:main
+xboxFly = crazyflie_examples.xboxFly:main

@@ -11,6 +11,7 @@ crazyflie_examples/multi_trajectory.py
 crazyflie_examples/nice_hover.py
 crazyflie_examples/set_param.py
 crazyflie_examples/swap.py
+crazyflie_examples/xboxFly.py
 crazyflie_examples.egg-info/PKG-INFO
 crazyflie_examples.egg-info/SOURCES.txt
 crazyflie_examples.egg-info/dependency_links.txt
