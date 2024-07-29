@@ -11,7 +11,8 @@ Hopefully this confused documentation is helpful, Crazyswarm2 is very confusing
         (^ also could be a sourcing issue idk)
 
         git clone https://github.com/bitcraze/crazyflie-clients-python
-
+        
+        pip3 install -e . --break-system-packages
         python3 bin/cfclient
 
     Uploading New Parameters / Changing Address
