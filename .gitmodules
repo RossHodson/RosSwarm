@@ -1,0 +1,12 @@
+[submodule "crazyflie_ros2_experimental"]
+	path = crazyflie_ros2_experimental
+	url = git@github.com:knmcguire/crazyflie_ros2_experimental.git
+[submodule "crazyflie-clients-python"]
+	path = crazyflie-clients-python
+	url = https://github.com/bitcraze/crazyflie-clients-python
+[submodule "src/--recursive"]
+	path = src/--recursive
+	url = https://github.com/IMRCLab/crazyswarm2
+[submodule "src/crazyswarm2"]
+	path = src/crazyswarm2
+	url = https://github.com/IMRCLab/crazyswarm2
