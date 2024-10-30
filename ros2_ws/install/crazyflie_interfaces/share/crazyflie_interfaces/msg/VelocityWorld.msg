@@ -1,1 +1,0 @@
-/home/ross/RosSwarm/ros2_ws/src/crazyswarm2/crazyflie_interfaces/msg/VelocityWorld.msg
