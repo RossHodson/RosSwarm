@@ -2,22 +2,16 @@ clc; close all; clear all;
 
 
 % THE FIGURES ARE SET UP TO SHOW JUST 3 DIMENSIONS BUT THE CODE SHOULD WORK
-% FOR NAY AMOUNT OF DIMENSIONS, JUST MAKE MORE FIGURES AND CHANGE THE
+% FOR ANY AMOUNT OF DIMENSIONS, JUST MAKE MORE FIGURES AND CHANGE THE
 % PARAMS.DIMENSIONS VALUE AND THE STATE INITIALIZATIONS
 
 
-
-
-
-
-
-
-%Variables to change
+%Variables that can change
 params.numNodes = 5;
 params.dimensions = 3;
 params.proxTolerance = 1;
 params.averageTolerance = 5;
-params.epsilon = 1 /8;               %From made up graph
+params.epsilon = 1 /8;               %Choose based on graph
 
 %Graph initialization
 params.Laplacian = [2, -1, -1, 0, 0;   %Made up Laplacian for connectivity
